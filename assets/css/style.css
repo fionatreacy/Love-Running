@@ -172,3 +172,74 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+#times {
+    background-image: url("../images/dublin-city.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+#times div {
+    color: #fafafa;
+    background-color: rgb(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+#times h2 {
+    color: #fafafa;
+}
+footer {
+    height: 150px;
+}
+.social-networks {
+    text-align: center;
+}
+.social-networks li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+}
+#photos > img {
+    width: 100%;
+}
+/* media query */
+@media  screen and (max-width:1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    hr {
+        display: none;
+    }
+}
